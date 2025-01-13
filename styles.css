@@ -518,3 +518,29 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   background-color: #8a2be2; /* Lighter purple on hover */
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
+
+/* Name Animation */
+.name-animation {
+  display: inline-block;
+  font-size: 3em;
+  color: #8a2be2; /* Purple color for your name */
+  animation-name: sliding-vertically;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Vertical Sliding Animation */
+@keyframes sliding-vertically {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
