@@ -482,3 +482,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
     font-size: 1.5em; /* Adjust font size for smaller screens */
   }
 }
+
+/* Resume Page */
+#resume {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark gray background */
+  color: #e0e0e0;
+  text-align: center;
+}
