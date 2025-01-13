@@ -591,3 +591,36 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   }
 }
 
+/* DVD Screensaver Effect */
+#dvd-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px; /* Logo width */
+  height: 150px; /* Logo height */
+  background-image: url('path-to-your-dvd-logo-image.png'); /* Add your DVD logo image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  animation: dvdBounce 8s infinite linear;
+}
+
+/* Keyframes for DVD Bounce */
+@keyframes dvdBounce {
+  0% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(-50%, -50%) translateX(calc(100vw - 150px)) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(calc(100vw - 150px)) translateY(calc(100vh - 150px));
+  }
+  75% {
+    transform: translate(-50%, -50%) translateX(0) translateY(calc(100vh - 150px));
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(0) translateY(0);
+  }
+}
+
