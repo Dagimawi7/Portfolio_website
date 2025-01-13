@@ -152,3 +152,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   width: 100%;
   background: #4b0082; /* Deep purple on hover for a subtle effect */
 }
+
+/* About Me Section */
+#about-me{
+  height: auto;
+  padding: 40px 20px;
+  background-color: #121212; /* Dark background */
+  color:#8a2be2;
+  text-align: center;
+}
