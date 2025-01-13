@@ -393,3 +393,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.3);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.education-item h3 {
+  color: #af7ac5; /* Light purple for school name */
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  color: #d3d3d3; /* Light gray for details */
+  margin: 5px 0;
+}
