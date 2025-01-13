@@ -24,4 +24,7 @@ nav a {
   font-size: 20px;
 }
 
-  
+/* Section General Styling */
+section {
+  padding: 20px;
+}
