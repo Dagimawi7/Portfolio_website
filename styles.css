@@ -144,3 +144,11 @@ div.borderYtoX a:after {
   right: 0px;
   bottom: 0px;
 }
+
+/* Hover effect on borders, turning them into a full line */
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
+  opacity: 1;
+  height: 2px;
+  width: 100%;
+  background: #4b0082; /* Deep purple on hover for a subtle effect */
+}
