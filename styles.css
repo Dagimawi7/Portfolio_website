@@ -28,3 +28,19 @@ nav a {
 section {
   padding: 20px;
 }
+
+/* About Section */
+#canvas-name {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Replace with a themed background */
+  background-size: cover;
+  background-position: center;
+  color: #e0e0e0; /* Wakandan aesthetic: subdued white for text */
+  text-align: center;
+  position: relative;
+  padding: 40px 20px;
+  overflow: hidden; /* Ensure clean layout */
+}
