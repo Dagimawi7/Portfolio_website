@@ -233,3 +233,14 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
     font-size: 16px; /* Slightly smaller text for mobile devices */
   }
 }
+
+/* Experience Section Styling */
+#experience {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark gray background */
+  border: 2px solid #4b0082; /* Purple border */
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px 5px rgba(138, 43, 226, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
