@@ -55,3 +55,12 @@ section {
   text-shadow: 2px 2px 4px #000; /* Shadow for cinematic effect */
   animation: fadeIn 2s ease-in-out;
 }
+
+/* Canvas Styling */
+canvas#miCanvas {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #4b0082; /* Purple border for a Wakandan touch */
+  box-shadow: 0 0 15px rgba(75, 0, 130, 0.7); /* Purple glow */
+}
