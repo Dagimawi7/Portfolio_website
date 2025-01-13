@@ -454,3 +454,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.3);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.skills-item h3 {
+  color: #af7ac5; /* Light purple for skill category */
+  margin-bottom: 10px;
+}
+
+.skills-item p {
+  color: #d3d3d3; /* Light gray for skill details */
+  margin: 5px 0;
+}
