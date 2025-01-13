@@ -497,3 +497,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   text-transform: uppercase;
   text-align: center;
 }
+
+#resume p {
+  color: #d3d3d3; /* Light gray for paragraph text */
+  margin: 10px 0;
+}
