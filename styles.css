@@ -374,3 +374,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
 }
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between items */
+  margin-top: 20px;
+}
