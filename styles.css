@@ -6,4 +6,22 @@ body {
     margin: 0;
     padding: 0;
   }
+/* Header Section - Navigation Bar */
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
   
