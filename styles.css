@@ -70,3 +70,8 @@ section {
   padding: 60px;
   margin-top: 0; /* Prevent additional margin stacking from default browser styles */
 }
+
+/* Projects Section Hover Effect */
+#projects:hover ~ canvas {
+  animation: fastRotate 2s infinite; /* Trigger 3D rotation effect when hovering over projects */
+}
