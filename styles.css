@@ -267,3 +267,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   margin-bottom: 20px;
   border-radius: 5px;
 }
+
+/* Experience Item Subheading */
+.experience-item h3 {
+  color: #af7ac5;
+  font-size: 1.2em;
+}
