@@ -284,3 +284,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 .experience-item p {
   color: #b0b0b0;
 }
+
+/* Experience Item List Styling */
+.experience-item ul {
+  padding-left: 20px;
+  color: #d3d3d3;
+}
