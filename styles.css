@@ -408,3 +408,16 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   transform: scale(1.05); /* Slight zoom effect */
   box-shadow: 0px 0px 25px rgba(138, 43, 226, 0.5); /* Glow effect on hover */
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-item {
+    width: 100%; /* Full width on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #education h2 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+}
