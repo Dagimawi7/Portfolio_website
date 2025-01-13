@@ -96,3 +96,12 @@ section {
   background-color: black; /* Black background for the canvas */
   z-index: -1; /* Keep the canvas behind other elements */
 }
+
+/* Navbar Animation - Container styling for navigation links */
+div.container {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  padding: 10px 3em;
+  text-align: center;
+  letter-spacing: 2;
+}
