@@ -51,3 +51,20 @@ function Punto() {
         this.draw(); // Draw the updated point
     };
 }
+
+// Array to store all the point objects
+let puntos = [];
+for (let i = 0; i < 150; i++) {
+    puntos[i] = new Punto(); // Create and add 150 new Punto objects to the array
+}
+
+// Function to move and animate the points on the canvas
+function move() {
+    context.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+    puntos.forEach(punto => {
+        punto.update(); // Update each point and redraw it
+    });
+    requestAnimationFrame(move); // Request the next frame of animation (smooth loop)
+}
+
+move(); // Start the animation
