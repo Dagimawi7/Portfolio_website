@@ -1,0 +1,9 @@
+/* Global Styles for the body and overall appearance */
+body {
+    background-color: #121212; /* Black Panther dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
