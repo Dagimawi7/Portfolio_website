@@ -345,3 +345,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color: #d3d3d3; /* Light gray for text */
   margin-bottom: 8px;
 }
+
+.project-item a {
+  color: #8a2be2; /* Vibrant purple for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-item a:hover {
+  color: #ffc107; /* Gold color on hover for contrast */
+}
