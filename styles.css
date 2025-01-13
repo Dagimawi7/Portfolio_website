@@ -317,3 +317,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   text-transform: uppercase;
   text-align: center;
 }
+
+/* General Layout for Project Section */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
