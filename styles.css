@@ -212,3 +212,24 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 .about-text p:last-child {
   margin-bottom: 0; /* Remove margin from the last paragraph */
 }
+
+/* Responsive Design - For smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack the profile picture and text */
+    text-align: center; /* Center the text for small screens */
+  }
+
+  .profile-picture {
+    margin-bottom: 20px; /* Add spacing between image and text */
+    margin-right: 0; /* Remove right margin for better alignment */
+  }
+
+  #about-me h1 {
+    font-size: 36px; /* Smaller heading size for mobile devices */
+  }
+
+  .about-text {
+    font-size: 16px; /* Slightly smaller text for mobile devices */
+  }
+}
