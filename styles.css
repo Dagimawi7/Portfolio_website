@@ -502,3 +502,19 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color: #d3d3d3; /* Light gray for paragraph text */
   margin: 10px 0;
 }
+
+.resume-link {
+  display: inline-block;
+  background-color: #4b0082; /* Deep purple button */
+  color: #fff; /* White text for contrast */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.resume-link:hover {
+  background-color: #8a2be2; /* Lighter purple on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
