@@ -244,3 +244,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   box-shadow: 0px 0px 15px 5px rgba(138, 43, 226, 0.3);
   transition: box-shadow 0.3s ease-in-out;
 }
+
+/* Experience Section Hover Effect */
+#experience:hover {
+  box-shadow: 0px 0px 25px 10px rgba(138, 43, 226, 0.6);
+}
