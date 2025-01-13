@@ -44,3 +44,14 @@ section {
   padding: 40px 20px;
   overflow: hidden; /* Ensure clean layout */
 }
+
+/* Name Animation */
+.name-animation {
+  font-family: 'Cinzel', serif; /* Regal, Wakandan-style font */
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffc107; /* Gold for royalty */
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px #000; /* Shadow for cinematic effect */
+  animation: fadeIn 2s ease-in-out;
+}
