@@ -355,3 +355,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 .project-item a:hover {
   color: #ffc107; /* Gold color on hover for contrast */
 }
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px rgba(138, 43, 226, 0.5); /* Glow effect on hover */
+}
