@@ -567,3 +567,27 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
     transform: translate(2px, 2px);
   }
 }
+
+/* Bounce Effect on Click */
+.name-animation:active {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
