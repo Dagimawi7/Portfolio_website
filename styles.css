@@ -75,3 +75,13 @@ section {
 #projects:hover ~ canvas {
   animation: fastRotate 2s infinite; /* Trigger 3D rotation effect when hovering over projects */
 }
+
+/* Keyframes for Rotation Animation */
+@keyframes fastRotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
