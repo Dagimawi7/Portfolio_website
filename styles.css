@@ -279,3 +279,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color: #e0e0e0;
   font-style: italic;
 }
+
+/* Experience Item Description */
+.experience-item p {
+  color: #b0b0b0;
+}
