@@ -123,3 +123,24 @@ div.container a {
 div.container a:hover {
   color: #8a2be2; /* Purple color on hover, inspired by Black Panther's suit */
 }
+
+/* Navbar Border Animation - Borders appearing on hover */
+div.borderYtoX a:before, div.borderYtoX a:after {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 2px;
+  content: '';
+  background: #8a2be2; /* Purple border for a Black Panther vibe */
+  transition: all 0.3s ease-in-out;
+}
+
+div.borderYtoX a:before {
+  left: 0px;
+  top: 0px;
+}
+
+div.borderYtoX a:after {
+  right: 0px;
+  bottom: 0px;
+}
