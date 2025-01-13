@@ -85,3 +85,14 @@ section {
     transform: rotateY(360deg);
   }
 }
+
+/* Canvas for Background Animation (About Section) */
+#miCanvas {
+  position: absolute;
+  top: 0; /* Keep the canvas starting from the top of the page */
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 150px); /* Dynamically set the height, leaving a 150px gap before the 'About Me' section */
+  background-color: black; /* Black background for the canvas */
+  z-index: -1; /* Keep the canvas behind other elements */
+}
