@@ -178,3 +178,19 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   margin: 0 auto;
   flex-wrap: wrap; /* Allow content to wrap on smaller screens */
 }
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Circular image */
+  overflow: hidden;
+  border: 4px solid #4b0082; /* Purple border for image */
+  margin-right: 30px; /* Space between image and text */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Slight shadow for 3D effect */
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
