@@ -273,3 +273,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color: #af7ac5;
   font-size: 1.2em;
 }
+
+/* Experience Item Role Styling */
+.experience-item h4 {
+  color: #e0e0e0;
+  font-style: italic;
+}
