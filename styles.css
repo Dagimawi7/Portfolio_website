@@ -118,3 +118,8 @@ div.container a {
   cursor: pointer;
   transition: color 0.3s ease-in-out; /* Smooth transition for hover effects */
 }
+
+/* Hover effect for Navbar links */
+div.container a:hover {
+  color: #8a2be2; /* Purple color on hover, inspired by Black Panther's suit */
+}
