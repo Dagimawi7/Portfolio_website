@@ -336,3 +336,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.3);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.project-item h3 {
+  color: #af7ac5; /* Light purple for project titles */
+  margin-bottom: 10px;
+}
