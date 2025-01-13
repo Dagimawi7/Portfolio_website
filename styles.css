@@ -249,3 +249,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 #experience:hover {
   box-shadow: 0px 0px 25px 10px rgba(138, 43, 226, 0.6);
 }
+
+/* Experience Section Heading */
+#experience h2 {
+  color: #8a2be2;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
