@@ -302,3 +302,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   margin-right: 8px;
   color: #8a2be2;
 }
+
+/* Projects Section Styling */
+#projects {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark gray background */
+  color: #e0e0e0;
+}
