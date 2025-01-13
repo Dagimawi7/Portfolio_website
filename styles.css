@@ -290,3 +290,15 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   padding-left: 20px;
   color: #d3d3d3;
 }
+
+/* Experience Item List Item Styling */
+.experience-item ul li {
+  margin-bottom: 8px;
+}
+
+/* Experience Item List Item Icon */
+.experience-item ul li::before {
+  content: "⚔️"; /* Icon resembling Wakandan spear */
+  margin-right: 8px;
+  color: #8a2be2;
+}
