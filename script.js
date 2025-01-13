@@ -68,3 +68,11 @@ function move() {
 }
 
 move(); // Start the animation
+
+// Function to generate random colors for the points
+function randomColor() {
+    let random = Math.random() * 3; // Generate a random number between 0 and 3
+    if (random > 2) return "rgb(206, 206, 206)"; // If the number is greater than 2, return light gray
+    if (random < 2 && random > 1) return "gray"; // If the number is between 1 and 2, return gray
+    if (random < 1) return "#7db424"; // If the number is less than 1, return green
+}
