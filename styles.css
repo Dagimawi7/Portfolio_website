@@ -360,3 +360,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   transform: scale(1.05);
   box-shadow: 0px 0px 25px rgba(138, 43, 226, 0.5); /* Glow effect on hover */
 }
+
+/* Education Page */
+#education {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark gray background */
+  color: #e0e0e0;
+  text-align: center;
+}
