@@ -194,3 +194,21 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container without distortion */
 }
+
+/* About Me Text Section */
+.about-text {
+  flex: 1;
+  color: #e0e0e0; /* Light grey color for text */
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left; /* Left-align text for readability */
+}
+
+/* Paragraph Spacing */
+.about-text p {
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.about-text p:last-child {
+  margin-bottom: 0; /* Remove margin from the last paragraph */
+}
