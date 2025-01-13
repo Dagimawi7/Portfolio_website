@@ -161,3 +161,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color:#8a2be2;
   text-align: center;
 }
+
+#about-me h1 {
+  color: #8a2be2; /* Purple color for headings */
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
