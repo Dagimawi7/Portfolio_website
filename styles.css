@@ -403,3 +403,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   color: #d3d3d3; /* Light gray for details */
   margin: 5px 0;
 }
+
+.education-item:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0px 0px 25px rgba(138, 43, 226, 0.5); /* Glow effect on hover */
+}
