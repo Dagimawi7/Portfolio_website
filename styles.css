@@ -168,3 +168,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   text-transform: uppercase;
   text-align: center;
 }
+
+/* About Me Content Container */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  max-width: 1000px; /* Increase the width to allow more space */
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
