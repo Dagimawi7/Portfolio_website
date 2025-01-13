@@ -258,3 +258,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   text-transform: uppercase;
   text-align: center;
 }
+
+/* Experience Item Styling */
+.experience-item {
+  padding: 15px;
+  background-color: #2c2c2c;
+  border-left: 5px solid #8a2be2;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
