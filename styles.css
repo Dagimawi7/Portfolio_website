@@ -624,3 +624,24 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   }
 }
 
+/* Mobile-specific styles */
+@media screen and (max-width: 768px) {
+  header nav ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  header nav ul li a {
+    font-size: 16px;
+  }
+
+  #about-me .about-container {
+    flex-direction: column; /* Stack image and text */
+    text-align: center;
+  }
+
+  #about-me .profile-picture img {
+    max-width: 100%;
+    height: auto;
+  }
+}
