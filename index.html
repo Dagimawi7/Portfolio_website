@@ -1,59 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dagimawi Tamrat Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/FBXLoader.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
-</head>
-<body>
-    <header>
-        <nav>
-          <div class="container teal borderYtoX">
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#resume">Resume</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>      
-</body>
+<!DOCTYPE html> <!-- Declares the document type and version of HTML (HTML5 in this case). This helps the browser render the page correctly. -->
+<html lang="en"> <!-- Starts the HTML document and specifies that the language of the document is English. -->
+<head> <!-- The head section contains metadata about the document, like character set, title, and links to external resources. -->
+  <meta charset="UTF-8"> <!-- Specifies the character encoding for the document (UTF-8 supports a wide range of characters). -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is responsive and scales correctly on different devices (mobile, tablet, etc.). -->
+  <title>Dagimawi Tamrat Portfolio</title> <!-- Sets the title of the webpage, which appears in the browser tab or title bar. -->
+  <link rel="stylesheet" href="styles.css"> <!-- Links to an external CSS file (styles.css) that will style the webpage. -->
+  <!-- Three.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> <!-- Loads the Three.js library, which is a popular JavaScript library for 3D graphics. -->
+  <!-- Fbx loader -->
+  <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/FBXLoader.js"></script> <!-- Loads the FBXLoader, a utility for loading 3D models in FBX format, using Three.js. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script> <!-- Loads the Tween.js library, which is used for creating smooth animations and transitions. -->
+</head> <!-- End of the head section. -->
 
-<section id="canvas-name">
+<body> <!-- Starts the body of the webpage, where all the visible content goes. -->
+  <header> <!-- Defines the header section of the webpage. Typically contains navigation and introductory information. -->
+    <nav> <!-- Starts the navigation element, which is used to define the set of links or navigation options. -->
+     <div class="container teal borderYtoX"> <!-- A div element with classes 'container', 'teal', and 'borderYtoX' for styling purposes (likely defining layout, color, and borders). -->
+      <ul> <!-- Creates an unordered list of items. This list will contain the navigation links. -->
+        <li><a href="#about">About</a></li> <!-- List item containing a link that points to the 'about' section of the page. -->
+        <li><a href="#experience">Experience</a></li> <!-- List item containing a link to the 'experience' section of the page. -->
+        <li><a href="#projects">Projects</a></li> <!-- List item containing a link to the 'projects' section of the page. -->
+        <li><a href="#education">Education</a></li> <!-- List item containing a link to the 'education' section of the page. -->
+        <li><a href="#skills">Skills</a></li> <!-- List item containing a link to the 'skills' section of the page. -->
+        <li><a href="#resume">Resume</a></li> <!-- List item containing a link to the 'resume' section of the page. -->
+      </ul> <!-- End of the unordered list. -->
+      </div> <!-- End of the container div. -->
+    </nav> <!-- End of the navigation section. -->
+  </header> <!-- End of the header section. -->
+</body> <!-- End of the body section. -->
+
+<!-- Canvas Name Section -->
+<section id="canvas-name"> 
     <h1><span class="name-animation">Dagimawi Tamrat</span></h1>
     <h1><span class="name-animation">Aspiring Software Developer</span></h1>
-    <canvas id="miCanvas"></canvas>
+    <canvas id="miCanvas"></canvas> <!-- Canvas for 3D graphics or animations. -->
 </section>
 
 <!-- About Me Section -->
 <section id="about-me"> <!-- About Me details and personal introduction. -->
-  <h1>About Me</h1>
-  <div class="about-container"> <!-- Container for the About Me content. -->
-      <div class="profile-picture"> <!-- Profile picture section. -->
-          <img src="/Picture/IMG_1635.jpg" alt="Dagimawi Tamrat's Profile Picture">
-      </div>
-      <div class="about-text"> <!-- Textual content for the About Me section. -->
-          <p>
-              I am Dagimawi Tamrat, a passionate software engineer graduating with a Bachelor of Arts in Computer Science from the University of Massachusetts Boston in December 2024. With a strong foundation in front-end development, I am skilled in technologies like React.js, Tailwind CSS, and Firebase Authentication, and proficient in programming languages such as Python, Java, JavaScript, and more.
-          </p>
-          <p>
-              Recently, I led the development of a cancer screening web application at Peek, where I created a user-friendly interface and implemented secure login systems, video playback, and report generation features to assist medical professionals. Additionally, my experience includes simulating swarm robotics behavior using Python, demonstrating my ability to work with multi-threaded applications and coordinate real-time processes.
-          </p>
-          <p>
-              As Co-President of the Google Developer Student Clubs, I spearheaded initiatives such as workshops, hackathons, and tech talks, resulting in a 40% increase in membership and enhanced community engagement. I am passionate about leveraging technology to create impactful solutions.
-          </p>
-          <p>
-              I am excited to connect and collaborate on innovative projects. Let’s work together to build transformative solutions!
-          </p>
-      </div>
-  </div>
+    <h1>About Me</h1>
+    <div class="about-container"> <!-- Container for the About Me content. -->
+        <div class="profile-picture"> <!-- Profile picture section. -->
+            <img src="/Picture/IMG_1635.jpg" alt="Dagimawi Tamrat's Profile Picture">
+        </div>
+        <div class="about-text"> <!-- Textual content for the About Me section. -->
+            <p>
+                I am Dagimawi Tamrat, a passionate software engineer graduating with a Bachelor of Arts in Computer Science from the University of Massachusetts Boston in December 2024. With a strong foundation in front-end development, I am skilled in technologies like React.js, Tailwind CSS, and Firebase Authentication, and proficient in programming languages such as Python, Java, JavaScript, and more.
+            </p>
+            <p>
+                Recently, I led the development of a cancer screening web application at Peek, where I created a user-friendly interface and implemented secure login systems, video playback, and report generation features to assist medical professionals. Additionally, my experience includes simulating swarm robotics behavior using Python, demonstrating my ability to work with multi-threaded applications and coordinate real-time processes.
+            </p>
+            <p>
+                As Co-President of the Google Developer Student Clubs, I spearheaded initiatives such as workshops, hackathons, and tech talks, resulting in a 40% increase in membership and enhanced community engagement. I am passionate about leveraging technology to create impactful solutions.
+            </p>
+            <p>
+                I am excited to connect and collaborate on innovative projects. Let’s work together to build transformative solutions!
+            </p>
+        </div>
+    </div>
 </section>
   
 <section id ="resume">
@@ -61,7 +65,7 @@
           <p>Click the link below to download my resume:</p> <!-- A paragraph with instructions to download the resume. -->
           <a href="https://docs.google.com/document/d/1hurSDlp3sFP-UWcs68r3NXOC-ynG4zMqfV6hfM0Efyk/edit?tab=t.0" download class="resume-link">Download My Resume</a> <!-- A clickable link (anchor tag) that allows the visitor to download the resume PDF file. The 'download' attribute indicates it will download rather than open in the browser. -->
 </section>
-  
+
 <section id="experience"> <!-- Defines a section with the ID 'experience', which can be used to navigate to this part of the page. This section showcases professional experiences. -->
   <h2>Experience</h2> <!-- A subheading (h2) introducing the "Experience" section. -->
 
@@ -103,63 +107,106 @@
 </section> <!-- End of the 'experience' section. -->
 
 
+<section id="projects"> <!-- Defines the section for showcasing personal or professional projects, with the ID 'projects' for navigation. -->
+  <h2>Projects</h2> <!-- A subheading introducing the "Projects" section. -->
+
+  <div class="project-container"> <!-- A container div to group project items together, styled with the class 'project-container'. -->
+
+      <div class="project-item"> <!-- A div container for a single project, styled with the class 'project-item'. -->
+          <h3>Cancer Screening Web Application</h3> <!-- The name of the project. -->
+          <p><strong>Role:</strong> Front End Web Developer</p> <!-- Specifies the role in this project, emphasized with bold text using <strong>. -->
+          <p><strong>Technologies:</strong> React.js, Tailwind CSS, Firebase Authentication</p> <!-- Lists the technologies used for this project. -->
+          <p>
+              Developed a web application to assist medical professionals in cancer screening. Integrated video playback, secure login, and a report generation feature to enhance user experience and provide comprehensive analysis tools.
+          </p> <!-- A brief description of the project, highlighting key features. -->
+          <a href="https://cancer-screening-omega.vercel.app/" target="_blank">View Project</a> <!-- A link to the live project. 'target="_blank"' ensures it opens in a new tab. -->
+      </div> <!-- End of the first 'project-item' div. -->
+
+      <div class="project-item"> <!-- A second project item container. -->
+          <h3>Swarm Robotics Coordination</h3> <!-- The name of the second project. -->
+          <p><strong>Role:</strong> Developer</p> <!-- Specifies the role in this project. -->
+          <p><strong>Technologies:</strong> Python, Multi-threading</p> <!-- Lists the technologies used for this project. -->
+          <p>
+              Simulated a swarm of robots in a 2D space, demonstrating basic swarm behaviors such as random walking and collision avoidance. Showcased real-time robot movement coordination and monitoring.
+          </p> <!-- A brief description of the project, explaining the key features and goals. -->
+          <a href="https://github.com/Dagimawi7/Swarm-Robotics-Coordination-" target="_blank">View Project</a> <!-- A link to the live project. 'target="_blank"' ensures it opens in a new tab. -->
+      </div> <!-- End of the second 'project-item' div. -->
+
+      <div class="project-item"> <!-- A second project item container. -->
+        <h3>Weather App</h3> <!-- The name of the second project. -->
+        <p><strong>Role:</strong> Developer</p> <!-- Specifies the role in this project. -->
+        <p><strong>Technologies:</strong> Python</p> <!-- Lists the technologies used for this project. -->
+        <p>
+            A Python-based application that provides real-time weather updates using the OpenWeatherMap API. Built with PyQt5 for an interactive user interface, 
+            the app displays current weather conditions, including temperature and emojis, and features an animated background for an engaging user experience. Managed using Git and GitHub 
+            for version control, this project highlights my skills in Python development, API integration, and graphical user interface design.
+        </p> <!-- A brief description of the project, explaining the key features and goals. -->
+        <a href="https://github.com/Dagimawi7/Weather-Application" target="_blank">View Project</a> <!-- A link to the live project. 'target="_blank"' ensures it opens in a new tab. -->
+    </div> <!-- End of the second 'project-item' div. -->
+
+
+  </div> <!-- End of the 'project-container' div. -->
+</section> <!-- End of the 'projects' section. -->
+
+<section id="education"> <!-- Defines a section for showcasing educational background with the ID 'education' for navigation. -->
+  <h2>Education</h2> <!-- A subheading introducing the "Education" section. -->
+
+  <div class="education-container"> <!-- A container div to group education items together, styled with the class 'education-container'. -->
+
+      <div class="education-item"> <!-- A div container for a single education item, styled with the class 'education-item'. -->
+          <h3>University of Massachusetts Boston</h3> <!-- The name of the educational institution. -->
+          <p><strong>Degree:</strong> Bachelor of Arts in Computer Science</p> <!-- Specifies the degree earned. -->
+          <p><strong>Graduation Date:</strong> December 2024</p> <!-- Specifies the graduation date. -->
+          <p>Relevant Coursework: Algorithms, Data Structures, Web Development, Artificial Intelligence</p> <!-- Lists relevant coursework completed as part of the degree. -->
+      </div> <!-- End of the 'education-item' div. -->
+
+  </div> <!-- End of the 'education-container' div. -->
+</section> <!-- End of the 'education' section. -->
+
+
+<section id="skills"> <!-- Defines the 'skills' section with the ID 'skills' for easy navigation. -->
+  <h2>Skills</h2> <!-- A subheading introducing the "Skills" section. -->
+
+  <div class="skills-container"> <!-- A container div that holds all the skills items, styled with the class 'skills-container'. -->
   
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-container">
-      <div class="project-item">
-        <h3>Cancer Screening Web Application</h3>
-        <p><strong>Role:</strong> Front End Web Developer</p>
-        <p><strong>Technologies:</strong> React.js, Tailwind CSS, Firebase Authentication</p>
-        <p>Developed a web application to assist medical professionals...</p>
-        <a href="https://cancer-screening-omega.vercel.app/" target="_blank">View Project</a>
-      </div>
-      <div class="project-item">
-        <h3>Swarm Robotics Coordination</h3>
-        <p><strong>Role:</strong> Developer</p>
-        <p><strong>Technologies:</strong> Python, Multi-threading</p>
-        <p>Simulated a swarm of robots in a 2D space...</p>
-        <a href="https://github.com/Dagimawi7/Swarm-Robotics-Coordination-" target="_blank">View Project</a>
-      </div>
-      <div class="project-item">
-        <h3>Weather App</h3>
-        <p><strong>Role:</strong> Developer</p>
-        <p><strong>Technologies:</strong> Python</p>
-        <p>A Python-based application that provides real-time weather updates...</p>
-        <a href="https://github.com/Dagimawi7/Weather-Application" target="_blank">View Project</a>
-      </div>
-    </div>
-  </section>
-  
-  <section id="education">
-    <h2>Education</h2>
-    <div class="education-container">
-      <div class="education-item">
-        <h3>University of Massachusetts Boston</h3>
-        <p><strong>Degree:</strong> Bachelor of Arts in Computer Science</p>
-        <p><strong>Graduation Date:</strong> December 2024</p>
-        <p>Relevant Coursework: Algorithms, Data Structures, Web Development, Artificial Intelligence</p>
-      </div>
-    </div>
-  </section>
-  
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-container">
-      <div class="skills-item">
-        <h3>Programming Languages</h3>
-        <p>Python, Java, JavaScript, HTML, CSS</p>
-      </div>
-      <div class="skills-item">
-        <h3>Web Development</h3>
-        <p>React.js, Tailwind CSS, Firebase, HTML, CSS</p>
-      </div>
-    </div>
-  </section>
-  
-  <!-- A placeholder div for the DVD logo animation (presumably to be added with JavaScript). -->
+      <!-- Programming Languages Skill Item -->
+      <div class="skills-item"> <!-- A div for grouping the "Programming Languages" skill item. -->
+          <h3>Programming Languages</h3> <!-- The title of the skill item (Programming Languages). -->
+          <p>Python, Java, JavaScript, HTML, CSS</p> <!-- List of programming languages that you are proficient in. -->
+      </div> <!-- End of the 'skills-item' div for Programming Languages. -->
+      
+      <!-- Web Development Skill Item -->
+      <div class="skills-item"> <!-- A div for the "Web Development" skill item. -->
+          <h3>Web Development</h3> <!-- The title of the skill item (Web Development). -->
+          <p>React.js, Tailwind CSS, Firebase Authentication, Angular</p> <!-- List of web development technologies and frameworks. -->
+      </div> <!-- End of the 'skills-item' div for Web Development. -->
+      
+      <!-- Tools Skill Item -->
+      <div class="skills-item"> <!-- A div for the "Tools" skill item. -->
+          <h3>Tools</h3> <!-- The title of the skill item (Tools). -->
+          <p>Git, GitHub</p> <!-- List of tools you are proficient in, related to version control. -->
+      </div> <!-- End of the 'skills-item' div for Tools. -->
+      
+      <!-- Soft Skills Skill Item -->
+      <div class="skills-item"> <!-- A div for the "Soft Skills" skill item. -->
+          <h3>Soft Skills</h3> <!-- The title of the skill item (Soft Skills). -->
+          <p>Communication, Collaboration, Problem-solving, Adaptability, Learning</p> <!-- List of soft skills you possess. -->
+      </div> <!-- End of the 'skills-item' div for Soft Skills. -->
+      
+      <!-- Languages Skill Item -->
+      <div class="skills-item"> <!-- A div for the "Languages" skill item. -->
+          <h3>Languages</h3> <!-- The title of the skill item (Languages). -->
+          <p>English (Fluent), Amharic (Fluent)</p> <!-- List of languages you speak and your proficiency. -->
+      </div> <!-- End of the 'skills-item' div for Languages. -->
+
+  </div> <!-- End of the 'skills-container' div. -->
+</section> <!-- End of the 'skills' section. -->
+
+<!-- A placeholder div for the DVD logo animation (presumably to be added with JavaScript). -->
 <div id="dvd-logo"></div>
 
+<!-- Link to the external JavaScript file 'script.js' to add functionality and interactivity to the page. -->
 <script src="script.js"></script>
 
-</html>
+</body> <!-- End of the body content of the webpage. -->
+</html> <!-- End of the HTML document. -->
