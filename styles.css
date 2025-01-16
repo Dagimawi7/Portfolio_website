@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
   }
-/* Header and Navigation Bar */
+/* Base Styling for the Navigation Bar (Mobile-First) */
 header {
   background-color: #1a1a1a;
   padding: 20px;
@@ -15,33 +15,53 @@ header {
 
 nav {
   display: flex;
-  justify-content: center; /* Center the navigation bar horizontally */
+  justify-content: center; /* Center the navigation bar */
 }
 
 .nav-links {
-  display: flex; /* Make the list items appear in a row */
-  gap: 20px; /* Add space between links */
-  list-style: none; /* Remove default list styles */
+  display: flex; /* Flexbox for horizontal layout */
+  flex-direction: column; /* Default to vertical layout for small screens */
+  align-items: center;
+  list-style: none;
   margin: 0;
   padding: 0;
+  gap: 10px; /* Space between links */
 }
 
 .nav-links li {
-  display: inline; /* Ensure list items remain inline */
+  width: 100%; /* Links will stretch on smaller screens */
 }
 
 nav a {
   text-decoration: none;
-  color: #cd1717;
+  color: #e0e0e0;
   font-size: 18px;
   padding: 10px 15px;
   transition: color 0.3s, background-color 0.3s;
+  display: block; /* Ensure links take up full width */
+  text-align: center;
 }
 
 nav a:hover {
   color: #1e90ff; /* Highlight color */
   background-color: #333; /* Subtle background highlight */
   border-radius: 5px;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row; /* Switch to horizontal layout for larger screens */
+    gap: 20px; /* Increase spacing between links */
+  }
+
+  .nav-links li {
+    width: auto; /* Remove full-width on larger screens */
+  }
+
+  nav a {
+    text-align: left; /* Align links text to the left on larger screens */
+  }
 }
 
 /* About Section */
