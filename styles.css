@@ -6,63 +6,77 @@ body {
     margin: 0;
     padding: 0;
   }
-/* Base Styling for the Navigation Bar (Mobile-First) */
+/* Base Styling for the Navigation Bar */
 header {
-  background-color: #1a1a1a;
-  padding: 20px;
-  border-bottom: 2px solid #444;
+  background-color: #1a1a1a; /* Dark vibranium-inspired background */
+  padding: 15px 20px;
+  border-bottom: 2px solid #4a4a4a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Navigation Container */
 nav {
   display: flex;
-  justify-content: center; /* Center the navigation bar */
+  justify-content: center;
+  align-items: center;
 }
 
+/* Navigation Links Styling */
 .nav-links {
-  display: flex; /* Flexbox for horizontal layout */
-  flex-direction: column; /* Default to vertical layout for small screens */
+  display: flex;
+  flex-direction: column; /* Vertical layout for small screens */
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 10px; /* Space between links */
+  gap: 10px;
 }
 
 .nav-links li {
-  width: 100%; /* Links will stretch on smaller screens */
+  width: 100%; /* Links stretch on smaller screens */
 }
 
 nav a {
   text-decoration: none;
-  color: #e0e0e0;
+  color: #e0e0e0; /* Light text for contrast */
   font-size: 18px;
   padding: 10px 15px;
-  transition: color 0.3s, background-color 0.3s;
-  display: block; /* Ensure links take up full width */
+  transition: all 0.3s ease;
+  display: block; /* Full-width links on mobile */
   text-align: center;
+  background: linear-gradient(90deg, #292929, #1a1a1a); /* Metallic gradient */
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
 }
 
+/* Light-Up Effect on Hover */
 nav a:hover {
-  color: #1e90ff; /* Highlight color */
-  background-color: #333; /* Subtle background highlight */
-  border-radius: 5px;
+  color: #fff; /* Text turns white */
+  background: linear-gradient(90deg, #1e90ff, #4b0082); /* Vibrant gradient */
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.5), 0 6px 12px rgba(75, 0, 130, 0.5); /* Glow effect */
+  border-color: #1e90ff; /* Highlight border */
 }
 
 /* Media Query for Larger Screens */
 @media (min-width: 768px) {
   .nav-links {
-    flex-direction: row; /* Switch to horizontal layout for larger screens */
-    gap: 20px; /* Increase spacing between links */
+    flex-direction: row; /* Horizontal layout for larger screens */
+    gap: 20px; /* Spacing between links */
   }
 
   .nav-links li {
-    width: auto; /* Remove full-width on larger screens */
+    width: auto; /* Auto width for links on larger screens */
   }
 
   nav a {
-    text-align: left; /* Align links text to the left on larger screens */
+    text-align: left; /* Align text to left */
+    padding: 10px 20px; /* Adjust padding for larger screens */
   }
 }
+
 
 /* About Section */
 #canvas-name {
