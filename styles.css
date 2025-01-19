@@ -665,7 +665,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   left: 50%;
   width: 150px; /* Logo width */
   height: 150px; /* Logo height */
-  background-image: url('path-to-your-dvd-logo-image.png'); /* Add your DVD logo image */
+  background-image: url(''); /* Add your DVD logo image */
   background-size: contain;
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
@@ -689,4 +689,92 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   100% {
     transform: translate(-50%, -50%) translateX(0) translateY(0);
   }
+}
+
+
+/* Certifications Section */
+.certifications {
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #1a1a1a, #292929); /* Dark metallic background */
+  color: #e0e0e0;
+  text-align: center;
+  font-family: 'Verdana', sans-serif;
+}
+
+.certifications h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #8a2be2; /* Vibrant blue for titles */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Certification Cards */
+.certification-card {
+  background: linear-gradient(135deg, #4b0082, #1e90ff); /* Wakandan-inspired gradient */
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(75, 0, 130, 0.5), 0 6px 12px rgba(30, 144, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out;
+}
+
+.certification-card:hover {
+  transform: scale(1); /* Enlarge on hover */
+  box-shadow: 0 8px 16px rgba(75, 0, 130, 0.7), 0 12px 24px rgba(30, 144, 255, 0.5);
+}
+
+/* Animation Effect */
+.certification-card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2), transparent);
+  transform: rotate(25deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.certification-card:hover:before {
+  left: 100%; /* Sweep animation on hover */
+}
+
+/* Text inside cards */
+.certification-card h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.certification-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+/* Certification Links */
+.cert-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #1e90ff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #292929, #1a1a1a); /* Metallic gradient for the button */
+  border: 1px solid #4a4a4a;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.cert-link:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #1e90ff, #4b0082); /* Vibrant hover gradient */
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.5), 0 6px 12px rgba(75, 0, 130, 0.5); /* Glow effect */
+  border-color: #1e90ff;
 }
