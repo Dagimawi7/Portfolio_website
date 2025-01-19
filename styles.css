@@ -692,21 +692,19 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 }
 
 
-/* Certifications Section */
-.certifications {
-  padding: 50px 20px;
-  background: linear-gradient(145deg, #1a1a1a, #292929); /* Dark metallic background */
+/* Certifications Section Styling */
+#certifications {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark gray background */
   color: #e0e0e0;
   text-align: center;
-  font-family: 'Verdana', sans-serif;
 }
 
-.certifications h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #8a2be2; /* Vibrant blue for titles */
+#certifications h2 {
+  color: #8a2be2; /* Purple color for headers */
+  font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  text-align: center;
 }
 
 /* Certification Cards */
