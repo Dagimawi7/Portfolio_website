@@ -73,62 +73,55 @@ nav a:hover {
 
 
 
-/* About Section */
-#canvas-name {
-  height: 100vh; /* Full viewport height */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; /* Replace with a themed background */
-  background-size: cover;
-  background-position: center;
-  color: #e0e0e0; /* Wakandan aesthetic: subdued white for text */
-  text-align: center;
-  position: relative;
+/* Skills Section Styling */
+#skills {
+  background-color: #101010;
+  color: #e0e0e0;
   padding: 40px 20px;
-  overflow: hidden; /* Ensure clean layout */
+  text-align: center;
 }
 
-/* Name Animation */
-.name-animation {
-  font-family: 'Cinzel', serif; /* Regal, Wakandan-style font */
-  font-size: 48px;
-  font-weight: 700;
-  color: #ffc107; /* Gold for royalty */
-  margin: 10px 0;
-  text-shadow: 2px 2px 4px #000; /* Shadow for cinematic effect */
-  animation: fadeIn 2s ease-in-out;
+.skills-container {
+  max-width: 800px;
+  margin: auto;
 }
 
-/* Canvas Styling */
-canvas#miCanvas {
-  margin-top: 20px;
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #4b0082; /* Purple border for a Wakandan touch */
-  box-shadow: 0 0 15px rgba(75, 0, 130, 0.7); /* Purple glow */
+.skills-item {
+  margin-bottom: 30px;
 }
 
-/* General Section Padding */
-section {
-  padding: 60px;
-  margin-top: 0; /* Prevent additional margin stacking from default browser styles */
+.progress-bar {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  height: 25px;
+  margin-top: 10px;
 }
 
-/* Projects Section Hover Effect */
-#projects:hover ~ canvas {
-  animation: fastRotate 2s infinite; /* Trigger 3D rotation effect when hovering over projects */
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(120deg, #4b0082, #7f00ff, #4b0082); /* Vibranium-like gradient */
+  background-size: 200% 100%;
+  animation: vibraniumEffect 3s ease-in-out infinite;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(127, 0, 255, 0.6); /* Vibranium glow */
 }
 
-/* Keyframes for Rotation Animation */
-@keyframes fastRotate {
-  from {
-    transform: rotateY(0deg);
+/* Animation for Vibranium Power Effect */
+@keyframes vibraniumEffect {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotateY(360deg);
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
+
+
 
 /* Canvas for Background Animation (About Section) */
 #miCanvas {
