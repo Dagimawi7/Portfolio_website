@@ -342,7 +342,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 
 /* Experience Item List Item Icon */
 .experience-item ul li::before {
-  content: "⚔️"; /* Icon resembling Wakandan spear */
+  content: ""; /* Icon resembling Wakandan spear */
   margin-right: 8px;
   color: #8a2be2;
 }
